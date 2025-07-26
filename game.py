@@ -25,22 +25,22 @@ def play_game():
     print("I'm thinking of a number between 1 and 100.")
 
     # This part will be uncommented after the tasks are complete
-    # import random
-    # secret_number = random.randint(1, 100)
-    # attempts = 0
-    #
-    # while True:
-    #     attempts += 1
-    #     guess = get_player_guess()
-    #     result = check_guess(secret_number, guess)
-    #
-    #     if result == "correct":
-    #         print(f"Congratulations! You guessed the number in {attempts} attempts.")
-    #         break
-    #     elif result == "high":
-    #         print("Too high! Try again.")
-    #     elif result == "low":
-    #         print("Too low! Try again.")
+    import random
+    secret_number = random.randint(1, 100)
+    attempts = 0
+    
+    while True:
+     attempts += 1
+     guess = get_player_guess()
+     result = check_guess(secret_number, guess)
+
+     if result == "correct":
+         print(f"Congratulations! You guessed the number in {attempts} attempts.")
+         break
+     elif result == "high":
+         print("Too high! Try again.")
+     elif result == "low":
+         print("Too low! Try again.")
 
 
 if __name__ == "__main__":
