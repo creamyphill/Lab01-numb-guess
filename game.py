@@ -31,6 +31,7 @@ def play_game():
     """
     print("--- Welcome to the Number Guessing Game! ---")
     print("I'm thinking of a number between 1 and 100.")
+    print("Bvvvdd")
 
     # This part will be uncommented after the tasks are complete
     # import random
